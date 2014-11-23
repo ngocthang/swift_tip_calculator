@@ -13,6 +13,7 @@
 		FCE08A311A2214FA00419E66 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE08A301A2214FA00419E66 /* Images.xcassets */; };
 		FCE08A341A2214FA00419E66 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCE08A321A2214FA00419E66 /* LaunchScreen.xib */; };
 		FCE08A401A2214FA00419E66 /* SimpleCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE08A3F1A2214FA00419E66 /* SimpleCalculatorTests.swift */; };
+		FCE08A4A1A22168B00419E66 /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE08A491A22168B00419E66 /* TipCalculatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		FCE08A391A2214FA00419E66 /* SimpleCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE08A3E1A2214FA00419E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCE08A3F1A2214FA00419E66 /* SimpleCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCalculatorTests.swift; sourceTree = "<group>"; };
+		FCE08A491A22168B00419E66 /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TipCalculatorModel.swift; path = ../TipCalculatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				FCE08A2D1A2214FA00419E66 /* Main.storyboard */,
 				FCE08A301A2214FA00419E66 /* Images.xcassets */,
 				FCE08A321A2214FA00419E66 /* LaunchScreen.xib */,
+				FCE08A491A22168B00419E66 /* TipCalculatorModel.swift */,
 				FCE08A271A2214F900419E66 /* Supporting Files */,
 			);
 			path = SimpleCalculator;
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCE08A2C1A2214FA00419E66 /* ViewController.swift in Sources */,
+				FCE08A4A1A22168B00419E66 /* TipCalculatorModel.swift in Sources */,
 				FCE08A2A1A2214FA00419E66 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
